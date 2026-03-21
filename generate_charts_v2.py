@@ -716,7 +716,42 @@ plt.close(fig)
 
 
 # ═══════════════════════════════════════════════════════════════ #
-print(f"\n✅ All 8 charts generated successfully in: {OUTPUT_DIR}")
+#                           CHART 9                              #
+#              PnL by Commodity Group (Horizontal Bar)           #
+# ═══════════════════════════════════════════════════════════════ #
+print("📊 Chart 9: PnL by Commodity Group...")
+
+df_group_pnl = df_perf.copy()
+df_group_pnl["Group"] = df_group_pnl["Symbol"].apply(get_commodity_group)
+grouped_pnl = df_group_pnl.groupby("Group")["Total P/L"].sum().sort_values(ascending=True)
+
+colors9 = [GREEN if x >= 0 else RED for x in grouped_pnl]
+
+fig, ax = plt.subplots(figsize=(13, max(6, len(grouped_pnl) * 0.6)))
+bars = ax.barh(grouped_pnl.index, grouped_pnl.values, color=colors9, edgecolor=[c + "66" for c in colors9], linewidth=0.5, height=0.6)
+
+# Value labels
+for bar, val in zip(bars, grouped_pnl.values):
+    x_pos = bar.get_width()
+    ha = "left" if val >= 0 else "right"
+    ax.annotate(fmt_usd(val), xy=(x_pos, bar.get_y() + bar.get_height() / 2),
+                xytext=(8 if val >= 0 else -8, 0), textcoords="offset points",
+                ha=ha, va="center", fontsize=10, color=TEXT_CLR, fontweight="bold")
+
+ax.axvline(0, color=MUTED, linewidth=0.8)
+ax.set_title("Total P&L by Commodity Group", fontsize=16, fontweight="bold", pad=15)
+ax.set_xlabel("Profit / Loss (USD)", fontsize=12, fontweight="bold")
+ax.xaxis.set_major_formatter(mticker.FuncFormatter(fmt_usd))
+ax.grid(axis="x")
+ax.margins(x=0.15)
+
+fig.tight_layout()
+fig.savefig(os.path.join(OUTPUT_DIR, "09_PnL_by_Commodity_Group.png"), dpi=300, bbox_inches="tight")
+plt.close(fig)
+
+
+# ═══════════════════════════════════════════════════════════════ #
+print(f"\n✅ All 9 charts generated successfully in: {OUTPUT_DIR}")
 print("   01_NAV_Cumulative_PnL.png")
 print("   02_PnL_by_Instrument.png")
 print("   03_PnL_by_Asset_Class.png")
@@ -725,3 +760,4 @@ print("   05_Weekly_PnL_Heatmap.png")
 print("   06_Win_Rate_Statistics.png")
 print("   07_Cumulative_PnL_by_Group.png")
 print("   08_Portfolio_Summary_Dashboard.png")
+print("   09_PnL_by_Commodity_Group.png")
