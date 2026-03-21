@@ -1,0 +1,681 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 28, 2026 - March 20, 2026"
+Statement,Data,WhenGenerated,"2026-03-21, 02:26:55 EDT"
+Partitions,Header,Name,Segment,Type,Base Currency
+Partitions,Data,"FA Client Demo, Interactive Advisors",DUC00074,Advisor Client,USD
+Partitions,Data,"Individual Demo, My Investments",DUO116877,Individual,USD
+Net Asset Value,Header,Account,Currency,Partition/Model,Starting Net Asset Value,Ending Net Asset Value
+Net Asset Value,Data,Interactive Advisors,USD,Moderate ESG,742161.246094483,715676.476094483
+Net Asset Value,Data,Interactive Advisors,USD,Independent,1647185.325369047,1539464.065369047
+Net Asset Value,Data,Account Total,,,2389346.57146353,2255140.54146353
+Net Asset Value,Data,Account Total,,,1000000,549839.4359
+Net Asset Value,Data,Total,,,3389346.57146353,2804979.97736353
+Profit and Loss,Header,Account,Currency,Partition,MTM,Commissions,Other,Total
+Profit and Loss,Data,Account Total,,,-140731.54,0,2094.92,-138636.62
+Profit and Loss,Data,Account Total,,,-451318.92003,-1066.941834,0,-452385.861864
+Profit and Loss,Data,Total,,,-592050.46003,-1066.941834,2094.92,-591022.481864
+Positions,Header,Account,Currency,Partition,Symbol,Asset Class,Quantity,Close Price,Value
+Positions,Data,Interactive Advisors,USD,,BWX,STK,712,21.92,15607.04
+Positions,Data,Interactive Advisors,USD,,DVY,STK,292,145.93,42611.56
+Positions,Data,Interactive Advisors,USD,,EAGG,STK,1280,47.28,60518.4
+Positions,Data,Interactive Advisors,USD,,ESGD,STK,954,92.31,88063.74
+Positions,Data,Interactive Advisors,USD,,ESGE,STK,1221,44.66,54529.86
+Positions,Data,Interactive Advisors,USD,,ESGV,STK,1142,112.08,127995.36
+Positions,Data,Interactive Advisors,USD,,ESML,STK,309,45.92,14189.28
+Positions,Data,Interactive Advisors,USD,,IBKR,STK,11200,65.47,733264
+Positions,Data,Interactive Advisors,USD,,LQD,STK,99,107.85,10677.15
+Positions,Data,Interactive Advisors,USD,,TFI,STK,1109,45.18,50104.62
+Positions,Data,Interactive Advisors,USD,,TIP,STK,207,110.22,22815.54
+Positions,Data,Interactive Advisors,USD,,VDE,STK,99,167.77,16609.23
+Positions,Data,Interactive Advisors,USD,,VNQ,STK,137,88.75,12158.75
+Positions,Data,Interactive Advisors,USD,,VO,STK,50,285.14,14257
+Positions,Data,Total,,,,,18811,,1263401.53
+Positions,Data,Account Total,,,,,18811,,1263401.53
+Positions,Data,My Investments,USD,,CC JUN26 4000 C,FOP,-19,28,-5320
+Positions,Data,My Investments,USD,,CL 30MAR26 90 P,FOP,10,2.23,22300
+Positions,Data,My Investments,USD,,FCPOJ6,FUT,5,1162.5872,145323.4
+Positions,Data,My Investments,USD,,FCPOM6,FUT,10,1170.45624,292614.06
+Positions,Data,My Investments,USD,,GC MAY26 5150 C,FOP,4,25.2,10080
+Positions,Data,My Investments,USD,,GC MAY26 5400 C,FOP,2,11.7,2340
+Positions,Data,My Investments,USD,,SB JUN26 0.13 P,FOP,20,0.0003,672
+Positions,Data,My Investments,USD,,SI APR26 82 P,FOP,1,12.475,62375
+Positions,Data,My Investments,USD,,SI APR26 84 P,FOP,-1,14.426,-72130
+Positions,Data,My Investments,USD,,ZS JUN26 11.4 C,FOP,15,0.5475,41062.5
+Positions,Data,My Investments,USD,,ZSK6,FUT,10,11.6125,580625
+Positions,Data,Total,,,,,57,,1079941.96
+Positions,Data,Account Total,,,,,57,,1079941.96
+Positions,Data,Total,,,,,,,2343343.49
+Trades,Header,Account,Currency,Partition,Symbol,Asset Class,Buy Quantity,Avg. Buy Price,Buy Proceeds,Sell Quantity,Avg. Sell Price,Close Price,Sell Proceeds
+Trades,Data,My Investments,USD,,COK6 C4500,FOP,10,144,-14400,-10,210,21000
+Trades,Data,My Investments,USD,,COM6 C3300,FOP,20,180,-36000,-20,291.5,58300
+Trades,Data,My Investments,USD,,COM6 C4000,FOP,1,20,-200,-20,241,48200
+Trades,Data,My Investments,USD,,COM6 P2800,FOP,40,145,-58000,-40,20,8000
+Trades,Data,My Investments,USD,,FCPOJ6,FUT,10,1092.78612,-273196.53,-5,1033.96875,129246.09375
+Trades,Data,My Investments,USD,,FCPOM6,FUT,10,1172.126,-293031.5,0,0,0
+Trades,Data,My Investments,USD,,G4WG6 C5300,FOP,1,100,-10000,-1,13,1300
+Trades,Data,My Investments,USD,,GLD   260227C00460000,OPT,1,8.21,-821,-1,19.7,1970
+Trades,Data,My Investments,USD,,GLD   260227P00435000,OPT,1,11.38,-1138,-1,0.27,27
+Trades,Data,My Investments,USD,,LNEJ6 P3200,FOP,10,0.298,-29800,-10,0.372,37200
+Trades,Data,My Investments,USD,,ML5H6 P9000,FOP,10,4.98,-49800,0,0,0
+Trades,Data,My Investments,USD,,OGH6 C5300,FOP,1,39.5,-3950,-1,130,13000
+Trades,Data,My Investments,USD,,OGK6 C5150,FOP,9,228.5,-205650,-5,265.9,132950
+Trades,Data,My Investments,USD,,OGK6 C5255,FOP,4,323.5,-129400,-4,238.2,95280
+Trades,Data,My Investments,USD,,OGK6 C5400,FOP,10,275,-275000,-8,30,24000
+Trades,Data,My Investments,USD,,OZSM6 C1140,FOP,15,0.41,-30750,0,0,0
+Trades,Data,My Investments,USD,,PAJ6,FUT,10,1770,-1770000,-10,1748.8,1748800
+Trades,Data,My Investments,USD,,PLJ6,FUT,10,2190,-1095000,-10,2178.51,1089255
+Trades,Data,My Investments,USD,,SOJ6 P8200,FOP,1,5.475,-27375,0,0,0
+Trades,Data,My Investments,USD,,SOJ6 P8400,FOP,0,0,0,-1,5.974,29870
+Trades,Data,My Investments,USD,,SOM6 C8600,FOP,1,12.377,-61885,-1,13.912,69560
+Trades,Data,My Investments,USD,,SOM6 P0.13,FOP,20,0.0036,-8064,0,0,0
+Trades,Data,My Investments,USD,,SOM6 P8000,FOP,1,9.463,-47315,-1,8.198,40990
+Trades,Data,My Investments,USD,,TFMJ6,FUT,5,78.10986,-281195.496,-5,54.82242,197360.712
+Trades,Data,My Investments,USD,,TFMK6,FUT,5,77.472465,-288197.5698,-5,74.1696,275910.912
+Trades,Data,My Investments,USD,,ZSK6,FUT,10,11.275,-563750,0,0,0
+Trades,Data,Total,,,,,216,,-5553919.0958,-159,,4022219.71775
+Trades,Data,Account Total,,,,,216,,-5553919.0958,-159,,4022219.71775
+Trades,Data,Total,,,,,,,-5553919.0958,,,4022219.71775
+Cash Report,Header,Account,Currency,Partition,Starting Cash,Deposits,Withdrawals,Interest,Net Trades,Dividends,Other,Ending Cash
+Cash Report,Data,Account Total,,,983008.08146353,0,0,5012.85,0,0,2094.92,990115.85146353
+Cash Report,Data,Account Total,,,1000000,0,0,1776.72,-407901,0,-105783.4141,488092.3059
+Cash Report,Data,Total,,,1983008.08146353,0,0,6789.57,-407901,0,-103688.4941,1478208.15736353
+Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 28, 2026 - March 20, 2026"
+Statement,Data,WhenGenerated,"2026-03-21, 02:26:55 EDT"
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,FA Client Demo
+Account Information,Data,Segment,DUC00074
+Account Information,Data,Investment Advisor,Interactive Advisors
+Account Information,Data,Account Type,Advisor Client
+Account Information,Data,Customer Type,Limited Liability Company
+Account Information,Data,Account Capabilities,Portfolio Margin
+Account Information,Data,Base Currency,USD
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,983008.08146353,990115.85146353,0,990115.85146353,7107.77
+Net Asset Value,Data,Stock,1404133.07,1263401.53,0,1263401.53,-140731.54
+Net Asset Value,Data,Interest Accruals,2205.42,1623.16,0,1623.16,-582.26
+Net Asset Value,Data,Total,2389346.57146353,2255140.54146353,0,2255140.54146353,-134206.03
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,-5.616850716%
+Change in NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,2389346.57146353
+Change in NAV,Data,Mark-to-Market,-140731.54
+Change in NAV,Data,Dividends,2094.92
+Change in NAV,Data,Interest,5012.85
+Change in NAV,Data,Change in Interest Accruals,-582.26
+Change in NAV,Data,Ending Value,2255140.54146353
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,BWX,712,712,23.0400,21.9200,-797.44,0,0,56.42,-741.02,
+Mark-to-Market Performance Summary,Data,Stocks,DVY,292,292,149.4900,145.9300,-1039.52,0,0,335.6,-703.92,
+Mark-to-Market Performance Summary,Data,Stocks,EAGG,1280,1280,47.9900,47.2800,-908.8,0,0,396.72,-512.08,
+Mark-to-Market Performance Summary,Data,Stocks,ESGD,954,954,101.2300,92.3100,-8509.68,0,0,0,-8509.68,
+Mark-to-Market Performance Summary,Data,Stocks,ESGE,1221,1221,48.5500,44.6600,-4749.69,0,0,0,-4749.69,
+Mark-to-Market Performance Summary,Data,Stocks,ESGV,1142,1142,122.7600,112.0800,-12196.56,0,0,0,-12196.56,
+Mark-to-Market Performance Summary,Data,Stocks,ESML,309,309,49.1300,45.9200,-991.89,0,0,34.86,-957.03,
+Mark-to-Market Performance Summary,Data,Stocks,IBKR,11200,11200,75.4800,65.4700,-112112,0,0,896,-111216,
+Mark-to-Market Performance Summary,Data,Stocks,LQD,99,99,110.8100,107.8500,-293.04,0,0,78.28,-214.76,
+Mark-to-Market Performance Summary,Data,Stocks,TFI,1109,1109,45.9500,45.1800,-853.93,0,0,297.04,-556.89,
+Mark-to-Market Performance Summary,Data,Stocks,TIP,207,207,110.3900,110.2200,-35.19,0,0,0,-35.19,
+Mark-to-Market Performance Summary,Data,Stocks,VDE,99,99,140.1500,167.7700,2734.38,0,0,0,2734.38,
+Mark-to-Market Performance Summary,Data,Stocks,VNQ,137,137,90.3900,88.7500,-224.68,0,0,0,-224.68,
+Mark-to-Market Performance Summary,Data,Stocks,VO,50,50,300.2100,285.1400,-753.5,0,0,0,-753.5,
+Mark-to-Market Performance Summary,Data,Total,,,,,,-140731.54,0,0,2094.92,-138636.62,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,-140731.54,0,0,2094.92,-138636.62,
+Mark-to-Market Performance Summary,Data,Broker Interest Paid and Received,,,,,,,,,,5012.85,
+Total P/L for Statement Period,,,,,,,,,,,,-133623.77,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,BWX,0,0,0,0,0,0,0,0,0,-4739.963399,-4739.963399,-4739.963399,
+Realized & Unrealized Performance Summary,Data,Stocks,DVY,0,0,0,0,0,0,0,0,13101.52393,0,13101.52393,13101.52393,
+Realized & Unrealized Performance Summary,Data,Stocks,EAGG,0,0,0,0,0,0,0,0,0,-7708.531293,-7708.531293,-7708.531293,
+Realized & Unrealized Performance Summary,Data,Stocks,ESGD,0,0,0,0,0,0,0,0,26844.102146,0,26844.102146,26844.102146,
+Realized & Unrealized Performance Summary,Data,Stocks,ESGE,0,0,0,0,0,0,0,0,13022.359361,0,13022.359361,13022.359361,
+Realized & Unrealized Performance Summary,Data,Stocks,ESGV,0,0,0,0,0,0,0,0,67724.533462,0,67724.533462,67724.533462,
+Realized & Unrealized Performance Summary,Data,Stocks,ESML,0,0,0,0,0,0,0,0,5726.708346,0,5726.708346,5726.708346,
+Realized & Unrealized Performance Summary,Data,Stocks,IBKR,0,0,0,0,0,0,0,0,622927.652804,0,622927.652804,622927.652804,
+Realized & Unrealized Performance Summary,Data,Stocks,LQD,0,0,0,0,0,0,0,0,0,-1642.302314,-1642.302314,-1642.302314,
+Realized & Unrealized Performance Summary,Data,Stocks,TFI,0,0,0,0,0,0,0,0,0,-5907.021953,-5907.021953,-5907.021953,
+Realized & Unrealized Performance Summary,Data,Stocks,TIP,0,0,0,0,0,0,0,0,0,-990.423106,-990.423106,-990.423106,
+Realized & Unrealized Performance Summary,Data,Stocks,VDE,0,0,0,0,0,0,0,0,8494.902686,0,8494.902686,8494.902686,
+Realized & Unrealized Performance Summary,Data,Stocks,VNQ,0,0,0,0,0,0,0,0,3.124543,-0.690365,2.434178,2.434178,
+Realized & Unrealized Performance Summary,Data,Stocks,VO,0,0,0,0,0,0,0,0,5732.559486,0,5732.559486,5732.559486,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,0,0,763577.466764,-20988.93243,742588.534334,742588.534334,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,0,0,0,0,0,0,0,763577.466764,-20988.93243,742588.534334,742588.534334,
+Month & Year to Date Performance Summary,Header,Asset Category,Symbol,Description,Mark-to-Market MTD,Mark-to-Market YTD,Realized S/T MTD,Realized S/T YTD,Realized L/T MTD,Realized L/T YTD
+Month & Year to Date Performance Summary,Data,Stocks,BWX,SPDR BLOOMBERG INT TREASURY,-761.14,-377.9,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,DVY,ISHARES SELECT DIVIDEND ETF,-2686.6,1734.28,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,EAGG,ISHARES ESG AWARE US AGGREGA,-1442.55,-332.88,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,ESGD,ISHARES TRUST ISHARES ESG AW,-11362.14,-2652.12,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,ESGE,ISHARES INC ISHARES ESG AWAR,-6666.66,598.29,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,ESGV,VANGUARD ESG US STOCK ETF,-7959.74,-10140.96,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,ESML,ISHARES ESG AWARE MSCI USA S,-1133.16,16.32,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,IBKR,INTERACTIVE BROKERS GRO-CL A,-63168,13888,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,LQD,ISHARES IBOXX INVESTMENT GRA,-341.27,-153.38,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,TFI,SS SPDR N ICE MUNI BOND ETF,-1312.67,-290.73,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,TIP,ISHARES TIPS BOND ETF,-343.62,64.17,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VDE,VANGUARD ENERGY ETF,1007.82,4143.15,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VNQ,VANGUARD REAL ESTATE ETF,-950.78,35.62,0,0,0,0
+Month & Year to Date Performance Summary,Data,Stocks,VO,VANGUARD MID-CAP ETF,-1053,-254,0,0,0,0
+Month & Year to Date Performance Summary,Data,Total,,,-98173.51,6277.86,0,0,0,0
+Month & Year to Date Performance Summary,Data,Total (All Assets),,,-98173.51,6277.86,0,0,0,0
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,Month to Date,Year to Date,
+Cash Report,Data,Starting Cash,Base Currency Summary,983008.08146353,983008.08146353,0,,,
+Cash Report,Data,Broker Interest Paid and Received,Base Currency Summary,5012.85,5012.85,0,2383.08,7697.16,
+Cash Report,Data,Payment In Lieu of Dividends,Base Currency Summary,2094.92,2094.92,0,1680.6,2094.92,
+Cash Report,Data,Ending Cash,Base Currency Summary,990115.85146353,990115.85146353,0,,,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,990115.85146353,990115.85146353,0,,,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,USD,BWX,712,1,28.577251965,20347.003399,21.92,15607.04,-4739.963399,
+Open Positions,Data,Summary,Stocks,USD,DVY,292,1,101.061767363,29510.03607,145.93,42611.56,13101.52393,
+Open Positions,Data,Summary,Stocks,USD,EAGG,1280,1,53.302290073,68226.931293,47.28,60518.4,-7708.531293,
+Open Positions,Data,Summary,Stocks,USD,ESGD,954,1,64.171528149,61219.637854,92.31,88063.74,26844.102146,
+Open Positions,Data,Summary,Stocks,USD,ESGE,1221,1,33.994677018,41507.500639,44.66,54529.86,13022.359361,
+Open Positions,Data,Summary,Stocks,USD,ESGV,1142,1,52.776555637,60270.826538,112.08,127995.36,67724.533462,
+Open Positions,Data,Summary,Stocks,USD,ESML,309,1,27.386963282,8462.571654,45.92,14189.28,5726.708346,
+Open Positions,Data,Summary,Stocks,USD,IBKR,11200,1,9.851459571,110336.347196,65.47,733264,622927.652804,
+Open Positions,Data,Summary,Stocks,USD,LQD,99,1,124.438912263,12319.452314,107.85,10677.15,-1642.302314,
+Open Positions,Data,Summary,Stocks,USD,TFI,1109,1,50.506439994,56011.641953,45.18,50104.62,-5907.021953,
+Open Positions,Data,Summary,Stocks,USD,TIP,207,1,115.004652686,23805.963106,110.22,22815.54,-990.423106,
+Open Positions,Data,Summary,Stocks,USD,VDE,99,1,81.962902162,8114.327314,167.77,16609.23,8494.902686,
+Open Positions,Data,Summary,Stocks,USD,VNQ,137,1,88.732232277,12156.315822,88.75,12158.75,2.434178,
+Open Positions,Data,Summary,Stocks,USD,VO,50,1,170.48881028,8524.440514,285.14,14257,5732.559486,
+Open Positions,Total,,Stocks,USD,,,,,520812.995666,,1263401.53,742588.534334,
+Net Stock Position Summary,Header,Asset Category,Currency,Symbol,Description,Shares at IB,Shares Borrowed,Shares Lent,Net Shares
+Net Stock Position Summary,Data,Stocks,USD,BWX,SPDR BLOOMBERG INT TREASURY,712,0,0,712
+Net Stock Position Summary,Data,Stocks,USD,DVY,ISHARES SELECT DIVIDEND ETF,292,0,0,292
+Net Stock Position Summary,Data,Stocks,USD,EAGG,ISHARES ESG AWARE US AGGREGA,1280,0,0,1280
+Net Stock Position Summary,Data,Stocks,USD,ESGD,ISHARES TRUST ISHARES ESG AW,954,0,0,954
+Net Stock Position Summary,Data,Stocks,USD,ESGE,ISHARES INC ISHARES ESG AWAR,1221,0,0,1221
+Net Stock Position Summary,Data,Stocks,USD,ESGV,VANGUARD ESG US STOCK ETF,1142,0,0,1142
+Net Stock Position Summary,Data,Stocks,USD,ESML,ISHARES ESG AWARE MSCI USA S,309,0,0,309
+Net Stock Position Summary,Data,Stocks,USD,IBKR,INTERACTIVE BROKERS GRO-CL A,11200,0,0,11200
+Net Stock Position Summary,Data,Stocks,USD,LQD,ISHR IBX USD INVGD CB ETF-UI,99,0,0,99
+Net Stock Position Summary,Data,Stocks,USD,TFI,SS SPDR N ICE MUNI BOND ETF,1109,0,0,1109
+Net Stock Position Summary,Data,Stocks,USD,TIP,ISHARES TIPS BOND ETF,207,0,0,207
+Net Stock Position Summary,Data,Stocks,USD,VDE,VANGUARD ENERGY ETF,99,0,0,99
+Net Stock Position Summary,Data,Stocks,USD,VNQ,VANGUARD REAL ESTATE ETF,137,0,0,137
+Net Stock Position Summary,Data,Stocks,USD,VO,VANGUARD MID-CAP ETF,50,0,0,50
+Dividends,Header,Currency,Date,Description,Amount
+Dividends,Data,USD,2026-02-02,BWX(US78464A5166) Payment in Lieu of Dividend (Ordinary Dividend),27.24
+Dividends,Data,USD,2026-02-02,EAGG(US46435U5496) Payment in Lieu of Dividend (Ordinary Dividend),200.87
+Dividends,Data,USD,2026-02-02,LQD(US4642872422) Payment in Lieu of Dividend (Ordinary Dividend),40.38
+Dividends,Data,USD,2026-02-02,TFI(US78468R7219) Payment in Lieu of Dividend (Ordinary Dividend),145.83
+Dividends,Data,USD,2026-02-27,IBKR(US45841N1072) Payment in Lieu of Dividend (Ordinary Dividend),896
+Dividends,Data,USD,2026-03-02,BWX(US78464A5166) Payment in Lieu of Dividend (Ordinary Dividend),29.18
+Dividends,Data,USD,2026-03-02,EAGG(US46435U5496) Payment in Lieu of Dividend (Ordinary Dividend),195.85
+Dividends,Data,USD,2026-03-02,LQD(US4642872422) Payment in Lieu of Dividend (Ordinary Dividend),37.9
+Dividends,Data,USD,2026-03-02,TFI(US78468R7219) Payment in Lieu of Dividend (Ordinary Dividend),151.21
+Dividends,Data,USD,2026-03-17,DVY(US4642871689) Payment in Lieu of Dividend (Ordinary Dividend),335.6
+Dividends,Data,USD,2026-03-17,ESML(US46435U6635) Payment in Lieu of Dividend (Ordinary Dividend),34.86
+Dividends,Data,Total,,,2094.92
+Interest,Header,Currency,Date,Description,Amount
+Interest,Data,USD,2026-02-04,USD Credit Interest for Jan-2026,2629.77
+Interest,Data,USD,2026-03-04,USD Credit Interest for Feb-2026,2383.08
+Interest,Data,Total,,,5012.85
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,2205.42
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,4430.59
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,-5012.85
+Interest Accruals,Data,Base Currency Summary,FX Translation,-0
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,1623.16
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Underlying,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,BWX,SPDR BLOOMBERG INT TREASURY,46577293,US78464A5166,BWX,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,DVY,ISHARES SELECT DIVIDEND ETF,26653236,US4642871689,DVY,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,EAGG,ISHARES ESG AWARE US AGGREGA,338719585,US46435U5496,EAGG,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,ESGD,ISHARES TRUST ISHARES ESG AW,238760476,US46435G5163,ESGD,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,ESGE,ISHARES INC ISHARES ESG AWAR,238760480,US46434G8630,ESGE,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,ESGV,VANGUARD ESG US STOCK ETF,333970434,US9219107334,ESGV,BATS,1,ETF,
+Financial Instrument Information,Data,Stocks,ESML,ISHARES ESG AWARE MSCI USA S,313845618,US46435U6635,ESML,BATS,1,ETF,
+Financial Instrument Information,Data,Stocks,IBKR,INTERACTIVE BROKERS GRO-CL A,43645865,US45841N1072,IBKR,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,LQD,ISHR IBX USD INVGD CB ETF-UI,15547816,US4642872422,LQD,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,TFI,SS SPDR N ICE MUNI BOND ETF,225020107,US78468R7219,TFI,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,TIP,ISHARES TIPS BOND ETF,26787475,US4642871762,TIP,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,VDE,VANGUARD ENERGY ETF,27684036,US92204A3068,VDE,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,VNQ,VANGUARD REAL ESTATE ETF,31230302,US9229085538,VNQ,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,VO,VANGUARD MID-CAP ETF,27638087,US9229086296,VO,ARCA,1,ETF,
+Codes,Header,Code,Meaning,Code (Cont.),Meaning (Cont.)
+Codes,Data,A,Assignment
+Codes,Data,ADR,ADR Fee Accrual
+Codes,Data,AEx,Automatic exercise for dividend-related recommendation.
+Codes,Data,AFx,AutoFX conversion resulting from trading
+Codes,Data,Adj,Adjustment
+Codes,Data,Al,Allocation
+Codes,Data,Aw,Away Trade
+Codes,Data,B,Automatic Buy-in
+Codes,Data,Bo,Direct Borrow
+Codes,Data,C,Closing Trade
+Codes,Data,CD,Cash Delivery
+Codes,Data,CP,Complex Position
+Codes,Data,Ca,Cancelled
+Codes,Data,Co,Corrected Trade
+Codes,Data,Cx,Part or all of this transaction was a Crossing executed as dual agent by IB for two IB customers
+Codes,Data,DT,Discounted Trade
+Codes,Data,De,Delivery or Conversion Action
+Codes,Data,ETF,ETF Creation/Redemption
+Codes,Data,Ep,Resulted from an Expired Position
+Codes,Data,Ex,Exercise
+Codes,Data,FP,The fractional portion of this trade was executed against IB or an affiliate.
+Codes,Data,FPA,The fractional portion of this trade was executed against IB or an affiliate. IB acted as agent for the whole share portion of this trade.
+Codes,Data,G,Trade in Guaranteed Account Segment
+Codes,Data,GEA,Exercise or Assignment resulting from offsetting positions
+Codes,Data,HC,Highest Cost tax basis election
+Codes,Data,HFI,Investment Transferred to Hedge Fund
+Codes,Data,HFR,Redemption from Hedge Fund
+Codes,Data,I,Internal Transfer
+Codes,Data,IA,The transaction was executed against IB or an affiliate
+Codes,Data,IM,A portion of the order was executed against IB or an affiliate; IB acted as agent on a portion.
+Codes,Data,INV,Investment Transfer from Investor
+Codes,Data,IPO,This transaction was executed as part of an IPO in which IB was a member of the selling group and is classified as a Principal trade.
+Codes,Data,L,Ordered by IB (Margin Violation)
+Codes,Data,LD,Adjusted by Loss Disallowed from Wash Sale
+Codes,Data,LF,Liquidation of fractional position by IB
+Codes,Data,LI,"Last In, First Out (LIFO) tax basis election"
+Codes,Data,LT,Long Term P/L
+Codes,Data,Lo,Direct Loan
+Codes,Data,M,Entered manually by IB
+Codes,Data,MEx,Manual exercise for dividend-related recommendation.
+Codes,Data,ML,Maximize Losses tax basis election
+Codes,Data,MLG,Maximize Long Term Gain tax basis election
+Codes,Data,MLL,Maximize Long Term Loss tax basis election
+Codes,Data,MSG,Maximize Short Term Gain tax basis election
+Codes,Data,MSL,Maximize Short Term Loss tax basis election
+Codes,Data,O,Opening Trade
+Codes,Data,Off,Yes and No contracts offset to $1.00 cash settlement
+Codes,Data,P,Partial Execution
+Codes,Data,PE,Perpetual Investment
+Codes,Data,PI,Price Improvement
+Codes,Data,PTA,Post Trade Allocation
+Codes,Data,Po,Interest or Dividend Accrual Posting
+Codes,Data,Pr,Part or all of this transaction was executed by the Exchange as a Crossing by IB against an IB affiliate and is therefore classified as a Principal and not an agency trade
+Codes,Data,R,Dividend Reinvestment
+Codes,Data,RED,Redemption to Investor
+Codes,Data,RI,Recurring Investment
+Codes,Data,RP,"IB acted as agent for the fractional share portion of this trade, which was executed by an IB affiliate as riskless principal."
+Codes,Data,RPA,IB acted as agent for both the fractional share portion and the whole share portion of this trade; the fractional share portion was executed by an IB Affiliate as riskless principal.
+Codes,Data,Rb,Rebill
+Codes,Data,Re,Interest or Dividend Accrual Reversal
+Codes,Data,Ri,Reimbursement
+Codes,Data,S0,Contract settled to zero value
+Codes,Data,S1,Contract settled to $1.00
+Codes,Data,SF,Trade is subject to IBKR Lite Surcharge Fee if volume of such trades exceeds 10% of the total monthly Lite trade volume
+Codes,Data,SI,This order was solicited by Interactive Brokers
+Codes,Data,SL,Specific Lot tax basis election
+Codes,Data,SO,This order was marked as solicited by your Introducing Broker
+Codes,Data,SS,Customer designated this trade for shortened settlement and so is subject to execution at prices above the prevailing market
+Codes,Data,ST,Short Term P/L
+Codes,Data,T,Transfer
+Codes,Data,Un,Unvested shares from stock grant
+Codes,Data,XCH,Mutual Fund Exchange Transaction
+Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 28, 2026 - March 20, 2026"
+Statement,Data,WhenGenerated,"2026-03-21, 02:26:55 EDT"
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Individual Demo
+Account Information,Data,Segment,DUO116877
+Account Information,Data,Account Type,Individual
+Account Information,Data,Customer Type,Individual
+Account Information,Data,Account Capabilities,Margin
+Account Information,Data,Base Currency,USD
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,1000000,584536.5909,-96444.285,488092.3059,-511907.6941
+Net Asset Value,Data,Options,0,138829.5,-77450,61379.5,61379.5
+Net Asset Value,Data,Interest Accruals,0,367.63,0,367.63,367.63
+Net Asset Value,Data,Total,1000000,723733.7209,-173894.285,549839.4359,-450160.5641
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,-45.01605641%
+Change in NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,1000000
+Change in NAV,Data,Mark-to-Market,-451318.92003
+Change in NAV,Data,Interest,1776.72
+Change in NAV,Data,Change in Interest Accruals,367.63
+Change in NAV,Data,Commissions,-1066.941834
+Change in NAV,Data,Other FX Translations,80.947764
+Change in NAV,Data,Ending Value,549839.4359
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Equity and Index Options,GLD 27FEB26 435 P,0,0,--,--,-573.08,-537.92,-1.68079,0,-1112.68079,
+Mark-to-Market Performance Summary,Data,Equity and Index Options,GLD 27FEB26 460 C,0,0,--,--,1138.71,10.29,-1.68079,0,1147.31921,
+Mark-to-Market Performance Summary,Data,Total,,,,,,565.63,-527.63,-3.36158,0,34.63842,
+Mark-to-Market Performance Summary,Data,Futures,FCPOJ6,0,5,--,"4,580.0000",-635.19375,1527.25,-23.423382,0,868.632868,
+Mark-to-Market Performance Summary,Data,Futures,FCPOM6,0,10,--,"4,611.0000",1884.0575,-1210.3475,-15.594372,0,658.115628,
+Mark-to-Market Performance Summary,Data,Futures,PAJ6,0,0,--,--,0,-21200,-49.4,0,-21249.4,
+Mark-to-Market Performance Summary,Data,Futures,PLJ6,0,0,--,--,0,-5745,-49.4,0,-5794.4,
+Mark-to-Market Performance Summary,Data,Futures,TFMJ6,0,0,--,--,-60136.97976,-23869.54872,-57.9975,0,-84064.52598,
+Mark-to-Market Performance Summary,Data,Futures,TFMK6,0,0,--,--,0,-12286.6578,-57.945,0,-12344.6028,
+Mark-to-Market Performance Summary,Data,Futures,ZSK6,0,10,--,11.6125,11875,5000,-30,0,16845,
+Mark-to-Market Performance Summary,Data,Total,,,,,,-47013.11601,-57784.30402,-283.760254,0,-105081.180284,
+Mark-to-Market Performance Summary,Data,Options On Futures,CC MAY26 4500 C,0,0,--,--,8900,-2300,-59.4,0,6540.6,
+Mark-to-Market Performance Summary,Data,Options On Futures,CC JUN26 3300 C,0,0,--,--,22770,-470,-118.8,0,22181.2,
+Mark-to-Market Performance Summary,Data,Options On Futures,CC JUN26 4000 C,0,-19,--,28.0000,46720,-4040,-62.37,0,42617.63,
+Mark-to-Market Performance Summary,Data,Options On Futures,CC JUN26 2800 P,0,0,--,--,-35600,-14400,-237.6,0,-50237.6,
+Mark-to-Market Performance Summary,Data,Options On Futures,GC 25FEB26 5300 C,0,0,--,--,-2900,-5800,-5.04,0,-8705.04,
+Mark-to-Market Performance Summary,Data,Options On Futures,NG APR26 3.2 P,0,0,--,--,5510,1890,-47.4,0,7352.6,
+Mark-to-Market Performance Summary,Data,Options On Futures,CL 30MAR26 90 P,0,10,--,2.2300,-21900,-5600,-23.7,0,-27523.7,
+Mark-to-Market Performance Summary,Data,Options On Futures,GC MAR26 5300 C,0,0,--,--,2200,6850,-5.04,0,9044.96,
+Mark-to-Market Performance Summary,Data,Options On Futures,GC MAY26 5150 C,0,4,--,25.2000,-34340,-28280,-35.28,0,-62655.28,
+Mark-to-Market Performance Summary,Data,Options On Futures,GC MAY26 5255 C,0,0,--,--,-4720,-29400,-20.16,0,-34140.16,
+Mark-to-Market Performance Summary,Data,Options On Futures,GC MAY26 5400 C,0,2,--,11.7000,-202500,-46160,-45.36,0,-248705.36,
+Mark-to-Market Performance Summary,Data,Options On Futures,ZS JUN26 11.4 C,0,15,--,0.5475,9281.25,1031.25,-45.15,0,10267.35,
+Mark-to-Market Performance Summary,Data,Options On Futures,SI APR26 82 P,0,1,--,12.4750,30770,4230,-2.52,0,34997.48,
+Mark-to-Market Performance Summary,Data,Options On Futures,SI APR26 84 P,0,-1,--,14.4260,-35390,-6870,-2.52,0,-42262.52,
+Mark-to-Market Performance Summary,Data,Options On Futures,SI JUN26 86 C,0,0,--,--,14890,-7215,-5.04,0,7669.96,
+Mark-to-Market Performance Summary,Data,Options On Futures,SB JUN26 0.13 P,0,20,--,0.0003,-8736,1344,-59.4,0,-7451.4,
+Mark-to-Market Performance Summary,Data,Options On Futures,SI JUN26 80 P,0,0,--,--,2335,-8660,-5.04,0,-6330.04,
+Mark-to-Market Performance Summary,Data,Total,,,,,,-202709.75,-143849.75,-779.82,0,-347339.32,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,-249157.23601,-202161.68402,-1066.941834,0,-452385.861864,
+Mark-to-Market Performance Summary,Data,Broker Interest Paid and Received,,,,,,,,,,1776.72,
+Total P/L for Statement Period,,,,,,,,,,,,-450609.141864,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,GLD 27FEB26 435 P,0,0,-1112.68079,0,0,-1112.68079,0,0,0,0,0,-1112.68079,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,GLD 27FEB26 460 C,0,1147.31921,0,0,0,1147.31921,0,0,0,0,0,1147.31921,
+Realized & Unrealized Performance Summary,Data,Total,,0,1147.31921,-1112.68079,0,0,34.63842,0,0,0,0,0,34.63842,
+Realized & Unrealized Performance Summary,Data,Futures,FCPOJ6,0,0,-8247.71375,0,0,-8247.71375,9130.472496,0,0,0,9130.472496,882.758746,
+Realized & Unrealized Performance Summary,Data,Futures,FCPOM6,0,0,0,0,0,0,682.524992,0,0,0,682.524992,682.524992,
+Realized & Unrealized Performance Summary,Data,Futures,PAJ6,0,0,-21249.4,0,0,-21249.4,0,0,0,0,0,-21249.4,
+Realized & Unrealized Performance Summary,Data,Futures,PLJ6,0,0,-5794.4,0,0,-5794.4,0,0,0,0,0,-5794.4,
+Realized & Unrealized Performance Summary,Data,Futures,TFMJ6,0,0,-84249.7122,0,0,-84249.7122,0,0,0,0,0,-84249.7122,
+Realized & Unrealized Performance Summary,Data,Futures,TFMK6,0,0,-12344.6028,0,0,-12344.6028,0,0,0,0,0,-12344.6028,
+Realized & Unrealized Performance Summary,Data,Futures,ZSK6,0,0,0,0,0,0,16845,0,0,0,16845,16845,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,-131885.82875,0,0,-131885.82875,26657.997488,0,0,0,26657.997488,-105227.831262,
+Realized & Unrealized Performance Summary,Data,Options On Futures,CC MAY26 4500 C,0,6540.6,0,0,0,6540.6,0,0,0,0,0,6540.6,
+Realized & Unrealized Performance Summary,Data,Options On Futures,CC JUN26 3300 C,0,22181.2,0,0,0,22181.2,0,0,0,0,0,22181.2,
+Realized & Unrealized Performance Summary,Data,Options On Futures,CC JUN26 4000 C,0,2204.06,0,0,0,2204.06,40413.57,0,0,0,40413.57,42617.63,
+Realized & Unrealized Performance Summary,Data,Options On Futures,CC JUN26 2800 P,0,0,-50237.6,0,0,-50237.6,0,0,0,0,0,-50237.6,
+Realized & Unrealized Performance Summary,Data,Options On Futures,GC 25FEB26 5300 C,0,0,-8705.04,0,0,-8705.04,0,0,0,0,0,-8705.04,
+Realized & Unrealized Performance Summary,Data,Options On Futures,NG APR26 3.2 P,0,7352.6,0,0,0,7352.6,0,0,0,0,0,7352.6,
+Realized & Unrealized Performance Summary,Data,Options On Futures,CL 30MAR26 90 P,0,0,0,0,0,0,0,-27523.7,0,0,-27523.7,-27523.7,
+Realized & Unrealized Performance Summary,Data,Options On Futures,GC MAR26 5300 C,0,9044.96,0,0,0,9044.96,0,0,0,0,0,9044.96,
+Realized & Unrealized Performance Summary,Data,Options On Futures,GC MAY26 5150 C,0,18674.8,0,0,0,18674.8,0,-81330.08,0,0,-81330.08,-62655.28,
+Realized & Unrealized Performance Summary,Data,Options On Futures,GC MAY26 5255 C,0,0,-34140.16,0,0,-34140.16,0,0,0,0,0,-34140.16,
+Realized & Unrealized Performance Summary,Data,Options On Futures,GC MAY26 5400 C,0,0,-196040.32,0,0,-196040.32,0,-52665.04,0,0,-52665.04,-248705.36,
+Realized & Unrealized Performance Summary,Data,Options On Futures,ZS JUN26 11.4 C,0,0,0,0,0,0,10267.35,0,0,0,10267.35,10267.35,
+Realized & Unrealized Performance Summary,Data,Options On Futures,SI APR26 82 P,0,0,0,0,0,0,34997.48,0,0,0,34997.48,34997.48,
+Realized & Unrealized Performance Summary,Data,Options On Futures,SI APR26 84 P,0,0,0,0,0,0,0,-42262.52,0,0,-42262.52,-42262.52,
+Realized & Unrealized Performance Summary,Data,Options On Futures,SI JUN26 86 C,0,7669.96,0,0,0,7669.96,0,0,0,0,0,7669.96,
+Realized & Unrealized Performance Summary,Data,Options On Futures,SB JUN26 0.13 P,0,0,0,0,0,0,0,-7451.4,0,0,-7451.4,-7451.4,
+Realized & Unrealized Performance Summary,Data,Options On Futures,SI JUN26 80 P,0,0,-6330.04,0,0,-6330.04,0,0,0,0,0,-6330.04,
+Realized & Unrealized Performance Summary,Data,Total,,0,73668.18,-295453.16,0,0,-221784.98,85678.4,-211232.74,0,0,-125554.34,-347339.32,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,74815.49921,-428451.66954,0,0,-353636.17033,112336.397488,-211232.74,0,0,-98896.342512,-452532.512842,
+Month & Year to Date Performance Summary,Header,Asset Category,Symbol,Description,Mark-to-Market MTD,Mark-to-Market YTD,Realized S/T MTD,Realized S/T YTD,Realized L/T MTD,Realized L/T YTD
+Month & Year to Date Performance Summary,Data,Equity and Index Options,GLD   260227P00435000,GLD 27FEB26 435 P,0,-1112.68079,0,-1112.68079,0,0
+Month & Year to Date Performance Summary,Data,Equity and Index Options,GLD   260227C00460000,GLD 27FEB26 460 C,0,1147.31921,0,1147.31921,0,0
+Month & Year to Date Performance Summary,Data,Total,,,0,34.63842,0,34.63842,0,0
+Month & Year to Date Performance Summary,Data,Futures,FCPOJ6,FCPO.MY 15APR26,17402.82125,868.632868,0,-8247.71375,0,0
+Month & Year to Date Performance Summary,Data,Futures,FCPOM6,FCPO.MY 15JUN26,658.115628,658.115628,0,0,0,0
+Month & Year to Date Performance Summary,Data,Futures,PAJ6,PA 28APR26,0,-21249.4,0,-21249.4,0,0
+Month & Year to Date Performance Summary,Data,Futures,PLJ6,PL 28APR26,0,-5794.4,0,-5794.4,0,0
+Month & Year to Date Performance Summary,Data,Futures,TFMJ6,TFM APR26,-84064.52598,-84064.52598,-84249.7122,-84249.7122,0,0
+Month & Year to Date Performance Summary,Data,Futures,TFMK6,TFM MAY26,-12344.6028,-12344.6028,-12344.6028,-12344.6028,0,0
+Month & Year to Date Performance Summary,Data,Futures,ZSK6,ZS 14MAY26,-4750,16845,0,0,0,0
+Month & Year to Date Performance Summary,Data,Total,,,-83098.191902,-105081.180284,-96594.315,-131885.82875,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,COK6 C4500,CC MAY26 4500 C,0,6540.6,0,6540.6,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,COM6 C3300,CC JUN26 3300 C,13446.05,22181.2,22181.2,22181.2,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,COM6 C4000,CC JUN26 4000 C,-2280,42617.63,0,2204.06,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,COM6 P2800,CC JUN26 2800 P,-52518.8,-50237.6,-50237.6,-50237.6,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,G4WG6 C5300,GC 25FEB26 5300 C,0,-8705.04,0,-8705.04,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,LNEJ6 P3200,NG APR26 3.2 P,-2893.7,7352.6,7352.6,7352.6,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,ML5H6 P9000,CL 30MAR26 90 P,-27523.7,-27523.7,0,0,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,OGH6 C5300,GC MAR26 5300 C,0,9044.96,0,9044.96,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,OGK6 C5150,GC MAY26 5150 C,-112600,-62655.28,0,18674.8,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,OGK6 C5255,GC MAY26 5255 C,-28290.08,-34140.16,-34140.16,-34140.16,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,OGK6 C5400,GC MAY26 5400 C,-248705.36,-248705.36,-196040.32,-196040.32,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,OZSM6 C1140,ZS JUN26 11.4 C,-5906.25,10267.35,0,0,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,SOJ6 P8200,SI APR26 82 P,46535,34997.48,0,0,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,SOJ6 P8400,SI APR26 84 P,-52890,-42262.52,0,0,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,SOM6 C8600,SI JUN26 86 C,0,7669.96,0,7669.96,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,SOM6 P0.13,SB JUN26 0.13 P,-3808,-7451.4,0,0,0,0
+Month & Year to Date Performance Summary,Data,Options On Futures,SOM6 P8000,SI JUN26 80 P,0,-6330.04,0,-6330.04,0,0
+Month & Year to Date Performance Summary,Data,Total,,,-477434.84,-347339.32,-250884.28,-221784.98,0,0
+Month & Year to Date Performance Summary,Data,Total (All Assets),,,-560533.031902,-452385.861864,-347478.595,-353636.17033,0,0
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,Month to Date,Year to Date,
+Cash Report,Data,Starting Cash,Base Currency Summary,1000000,1000000,0,,,
+Cash Report,Data,Commissions,Base Currency Summary,-1066.941834,-3.36158,-1063.580254,-457.126872,-1066.941834,
+Cash Report,Data,Internal Transfers,Base Currency Summary,0,-931702.37,931702.37,0,0,
+Cash Report,Data,Broker Interest Paid and Received,Base Currency Summary,1776.72,1776.72,0,1354.66,1776.72,
+Cash Report,Data,Cash Settling MTM,Base Currency Summary,-104797.42003,0,-104797.42003,-82966.65503,-104797.42003,
+Cash Report,Data,Trades (Sales),Base Currency Summary,581647,1997,579650,114200,581647,
+Cash Report,Data,Trades (Purchase),Base Currency Summary,-989548,-1959,-987589,-490200,-989548,
+Cash Report,Data,Cash FX Translation Gain/Loss,Base Currency Summary,80.947764,0,80.947764,,,
+Cash Report,Data,Ending Cash,Base Currency Summary,488092.3059,70108.98842,417983.31748,,,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,519975.1859,70108.98842,449866.19748,,,
+Cash Report,Data,Starting Cash,EUR,0,0,0,,,
+Cash Report,Data,Commissions,EUR,-100,0,-100,-100,-100,
+Cash Report,Data,Cash Settling MTM,EUR,-83250,0,-83250,-83250,-83250,
+Cash Report,Data,Ending Cash,EUR,-83350,0,-83350,,,
+Cash Report,Data,Ending Settled Cash,EUR,-83350,0,-83350,,,
+Cash Report,Data,Starting Cash,MYR,0,0,0,,,
+Cash Report,Data,Commissions,MYR,-153,0,-153,-61.2,-153,
+Cash Report,Data,Cash Settling MTM,MYR,6625,0,6625,71500,6625,
+Cash Report,Data,Ending Cash,MYR,6472,0,6472,,,
+Cash Report,Data,Ending Settled Cash,MYR,-24028,0,-24028,,,
+Cash Report,Data,Starting Cash,USD,1000000,1000000,0,,,
+Cash Report,Data,Commissions,USD,-911.98158,-3.36158,-908.62,-325.59,-911.98158,
+Cash Report,Data,Deposits,USD,0,0,0,0,1000000,
+Cash Report,Data,Internal Transfers,USD,0,-931702.37,931702.37,0,0,
+Cash Report,Data,Broker Interest Paid and Received,USD,1776.72,1776.72,0,1354.66,1776.72,
+Cash Report,Data,Cash Settling MTM,USD,-10070,0,-10070,-4750,-10070,
+Cash Report,Data,Trades (Sales),USD,581647,1997,579650,114200,581647,
+Cash Report,Data,Trades (Purchase),USD,-989548,-1959,-987589,-490200,-989548,
+Cash Report,Data,Ending Cash,USD,582893.73842,70108.98842,512784.75,,,
+Cash Report,Data,Ending Settled Cash,USD,622518.73842,70108.98842,552409.75,,,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Futures,MYR,FCPOJ6,5,25,4292.2448,536530.6,4580,572500,35969.4,
+Open Positions,Data,Summary,Futures,MYR,FCPOM6,10,25,4600.2448,1150061.2,4611,1152750,2688.8,
+Open Positions,Total,,Futures,MYR,,,,,1686591.8,,1725250,38658.2,
+Open Positions,Total,,Futures,USD,,,,,428124.462512,,437937.46,9812.997488,
+Open Positions,Data,Summary,Futures,USD,ZSK6,10,5000,11.2756,563780,11.6125,580625,16845,
+Open Positions,Total,,Futures,USD,,,,,563780,,580625,16845,
+Open Positions,Total,,Futures,USD,,,,,991904.462512,,1018562.46,26657.997488,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Options On Futures,USD,CC JUN26 4000 C,-19,10,240.703,-45733.57,28,-5320,40413.57,
+Open Positions,Data,Summary,Options On Futures,USD,CL 30MAR26 90 P,10,1000,4.98237,49823.7,2.23,22300,-27523.7,
+Open Positions,Data,Summary,Options On Futures,USD,GC MAY26 5150 C,4,100,228.5252,91410.08,25.2,10080,-81330.08,
+Open Positions,Data,Summary,Options On Futures,USD,GC MAY26 5400 C,2,100,275.0252,55005.04,11.7,2340,-52665.04,
+Open Positions,Data,Summary,Options On Futures,USD,SB JUN26 0.13 P,20,112000,0.003626518,8123.4,0.0003,672,-7451.4,
+Open Positions,Data,Summary,Options On Futures,USD,SI APR26 82 P,1,5000,5.475504,27377.52,12.475,62375,34997.48,
+Open Positions,Data,Summary,Options On Futures,USD,SI APR26 84 P,-1,5000,5.973496,-29867.48,14.426,-72130,-42262.52,
+Open Positions,Data,Summary,Options On Futures,USD,ZS JUN26 11.4 C,15,5000,0.410602,30795.15,0.5475,41062.5,10267.35,
+Open Positions,Total,,Options On Futures,USD,,,,,186933.84,,61379.5,-125554.34,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,GLD 27FEB26 460 C,"2026-02-06, 02:00:23",1,8.21,12.3818,-821,-0.62875,821.62875,0,417.18,O
+Trades,Data,Order,Equity and Index Options,USD,GLD 27FEB26 460 C,"2026-02-23, 10:00:00",-1,19.7,23.7689,1970,-1.05204,-821.62875,1147.31921,-406.89,C
+Trades,SubTotal,,Equity and Index Options,USD,GLD 27FEB26 460 C,,0,,,1149,-1.68079,0,1147.31921,10.29,
+Trades,Data,Order,Equity and Index Options,USD,GLD 27FEB26 435 P,"2026-02-06, 02:00:23",1,11.38,6.175,-1138,-0.62875,1138.62875,0,-520.5,O
+Trades,Data,Order,Equity and Index Options,USD,GLD 27FEB26 435 P,"2026-02-23, 10:00:00",-1,0.27,0.4442,27,-1.05204,-1138.62875,-1112.68079,-17.42,C
+Trades,SubTotal,,Equity and Index Options,USD,GLD 27FEB26 435 P,,0,,,-1111,-1.68079,0,-1112.68079,-537.92,
+Trades,Total,,Equity and Index Options,USD,,,,,,38,-3.36158,0,34.63842,-527.63, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Notional Value,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Futures,EUR,TFMJ6,"2026-03-10, 12:09:24",-5,47.22,47.393,169992,-25,-169967,0,-622.8,O
+Trades,Data,Order,Futures,EUR,TFMJ6,"2026-03-19, 05:00:09",5,67.4,61.852,-242640,-25,169967,-72698,-19972.8,C
+Trades,SubTotal,,Futures,EUR,TFMJ6,,0,,,-72648,-50,0,-72698,-20595.6,
+Trades,Data,Order,Futures,EUR,TFMK6,"2026-03-19, 05:01:19",5,66.85,61.811,-248682,-25,248707,0,-18745.08,O
+Trades,Data,Order,Futures,EUR,TFMK6,"2026-03-19, 08:16:09",-5,64,61.811,238080,-25,-248707,-10652,8143.08,C
+Trades,SubTotal,,Futures,EUR,TFMK6,,0,,,-10602,-50,-0,-10652,-10602,
+Trades,Total,,Futures,EUR,,,,,,-83250,-100,-0,-83350,-31197.6, 
+Trades,Total,,Futures,USD,,,,,,-96121.4418,-115.9425,-356.9307,-96594.315,-36156.20652, 
+Trades,Data,Order,Futures,MYR,FCPOJ6,"2026-01-28, 22:29:49",10,4292,4317,-1073000,-61.2,1073061.2,0,6250,O;P
+Trades,Data,Order,Futures,MYR,FCPOJ6,"2026-02-11, 22:34:49",-5,4035,4037,504375,-30.6,-536530.6,-32186.2,-250,C;P
+Trades,SubTotal,,Futures,MYR,FCPOJ6,,5,,,-568625,-91.8,536530.6,-32186.2,6000,
+Trades,Data,Order,Futures,MYR,FCPOM6,"2026-03-17, 05:50:14",10,4600,4581,-1150000,-61.2,1150061.2,0,-4750,O;P
+Trades,SubTotal,,Futures,MYR,FCPOM6,,10,,,-1150000,-61.2,1150061.2,0,-4750,
+Trades,Total,,Futures,MYR,,,,,,-1718625,-153,1686591.8,-32186.2,1250, 
+Trades,Total,,Futures,USD,,,,,,-436981.93625,-39.017754,428773.240254,-8247.71375,316.9025, 
+Trades,Data,Order,Futures,USD,PAJ6,"2026-02-11, 07:51:29",10,1770,1749,-1770000,-24.7,1770024.7,0,-21000,O;P
+Trades,Data,Order,Futures,USD,PAJ6,"2026-02-11, 12:54:51",-10,1748.8,1749,1748800,-24.7,-1770024.7,-21249.4,-200,C;P
+Trades,SubTotal,,Futures,USD,PAJ6,,0,,,-21200,-49.4,0,-21249.4,-21200,
+Trades,Data,Order,Futures,USD,PLJ6,"2026-02-11, 06:14:19",10,2190,2145.7,-1095000,-24.7,1095024.7,0,-22150,O;P
+Trades,Data,Order,Futures,USD,PLJ6,"2026-02-11, 07:43:13",-10,2178.51,2145.7,1089255,-24.7,-1095024.7,-5794.4,16405,C;P
+Trades,SubTotal,,Futures,USD,PLJ6,,0,,,-5745,-49.4,0,-5794.4,-5745,
+Trades,Data,Order,Futures,USD,ZSK6,"2026-02-09, 21:27:15",10,11.275,11.375,-563750,-30,563780,0,5000,O
+Trades,SubTotal,,Futures,USD,ZSK6,,10,,,-563750,-30,563780,0,5000,
+Trades,Total,,Futures,USD,,,,,,-590695,-128.8,563780,-27043.8,-21945, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Options On Futures,USD,CC MAY26 4500 C,"2026-02-09, 09:56:59",-10,210,203,21000,-29.7,-20970.3,0,700,O
+Trades,Data,Order,Options On Futures,USD,CC MAY26 4500 C,"2026-02-10, 09:44:59",10,144,114,-14400,-29.7,20970.3,6540.6,-3000,C
+Trades,SubTotal,,Options On Futures,USD,CC MAY26 4500 C,,0,,,6600,-59.4,0,6540.6,-2300,
+Trades,Data,Order,Options On Futures,USD,CC JUN26 3300 C,"2026-02-19, 08:58:12",-1,250,229,2500,-2.97,-2497.03,0,210,O
+Trades,Data,Order,Options On Futures,USD,CC JUN26 3300 C,"2026-02-19, 10:02:36",-2,240,229,4800,-5.94,-4794.06,0,220,O
+Trades,Data,Order,Options On Futures,USD,CC JUN26 3300 C,"2026-02-23, 05:38:57",-2,300,215,6000,-5.94,-5994.06,0,1700,O
+Trades,Data,Order,Options On Futures,USD,CC JUN26 3300 C,"2026-03-10, 11:50:29",-15,300,344,45000,-44.55,-44955.45,0,-6600,O
+Trades,Data,Order,Options On Futures,USD,CC JUN26 3300 C,"2026-03-20, 09:38:14",20,180,200,-36000,-59.4,58240.6,22181.2,4000,C
+Trades,SubTotal,,Options On Futures,USD,CC JUN26 3300 C,,0,,,22300,-118.8,0,22181.2,-470,
+Trades,Data,Order,Options On Futures,USD,CC JUN26 4000 C,"2026-02-12, 10:55:29",-20,241,261,48200,-59.4,-48140.6,0,-4000,O
+Trades,Data,Order,Options On Futures,USD,CC JUN26 4000 C,"2026-02-27, 10:22:16",1,20,16,-200,-2.97,2407.03,2204.06,-40,C
+Trades,SubTotal,,Options On Futures,USD,CC JUN26 4000 C,,-19,,,48000,-62.37,-45733.57,2204.06,-4040,
+Trades,Data,Order,Options On Futures,USD,CC JUN26 2800 P,"2026-02-24, 09:45:56",40,145,123,-58000,-118.8,58118.8,0,-8800,O
+Trades,Data,Order,Options On Futures,USD,CC JUN26 2800 P,"2026-03-12, 06:24:49",-40,20,34,8000,-118.8,-58118.8,-50237.6,-5600,C
+Trades,SubTotal,,Options On Futures,USD,CC JUN26 2800 P,,0,,,-50000,-237.6,0,-50237.6,-14400,
+Trades,Data,Order,Options On Futures,USD,GC 25FEB26 5300 C,"2026-01-30, 13:05:59",1,100,42.7,-10000,-2.52,10002.52,0,-5730,O
+Trades,Data,Order,Options On Futures,USD,GC 25FEB26 5300 C,"2026-02-20, 11:48:29",-1,13,13.7,1300,-2.52,-10002.52,-8705.04,-70,C
+Trades,SubTotal,,Options On Futures,USD,GC 25FEB26 5300 C,,0,,,-8700,-5.04,0,-8705.04,-5800,
+Trades,Data,Order,Options On Futures,USD,NG APR26 3.2 P,"2026-02-04, 10:12:28",10,0.298,0.28,-29800,-23.7,29823.7,0,-1800,O
+Trades,Data,Order,Options On Futures,USD,NG APR26 3.2 P,"2026-03-02, 00:10:15",-10,0.372,0.3351,37200,-23.7,-29823.7,7352.6,3690,C
+Trades,SubTotal,,Options On Futures,USD,NG APR26 3.2 P,,0,,,7400,-47.4,0,7352.6,1890,
+Trades,Data,Order,Options On Futures,USD,CL 30MAR26 90 P,"2026-03-17, 12:58:58",10,4.98,4.42,-49800,-23.7,49823.7,0,-5600,O;P
+Trades,SubTotal,,Options On Futures,USD,CL 30MAR26 90 P,,10,,,-49800,-23.7,49823.7,0,-5600,
+Trades,Data,Order,Options On Futures,USD,GC MAR26 5300 C,"2026-01-30, 10:58:57",-1,130,54.7,13000,-2.52,-12997.48,0,7530,O
+Trades,Data,Order,Options On Futures,USD,GC MAR26 5300 C,"2026-02-11, 08:18:26",1,39.5,32.7,-3950,-2.52,12997.48,9044.96,-680,C
+Trades,SubTotal,,Options On Futures,USD,GC MAR26 5300 C,,0,,,9050,-5.04,0,9044.96,6850,
+Trades,Data,Order,Options On Futures,USD,GC MAY26 5150 C,"2026-02-11, 12:12:52",9,228.5,229.8,-205650,-22.68,205672.68,0,1170,O
+Trades,Data,Order,Options On Futures,USD,GC MAY26 5150 C,"2026-02-22, 18:14:36",-5,265.9,324.8,132950,-12.6,-114262.6,18674.8,-29450,C;P
+Trades,SubTotal,,Options On Futures,USD,GC MAY26 5150 C,,4,,,-72700,-35.28,91410.08,18674.8,-28280,
+Trades,Data,Order,Options On Futures,USD,GC MAY26 5255 C,"2026-02-23, 07:53:28",-4,238.2,274.1,95280,-10.08,-95269.92,0,-14360,O
+Trades,Data,Order,Options On Futures,USD,GC MAY26 5255 C,"2026-03-02, 09:37:19",4,323.5,285.9,-129400,-10.08,95269.92,-34140.16,-15040,C
+Trades,SubTotal,,Options On Futures,USD,GC MAY26 5255 C,,0,,,-34120,-20.16,0,-34140.16,-29400,
+Trades,Data,Order,Options On Futures,USD,GC MAY26 5400 C,"2026-03-01, 19:16:29",10,275,217,-275000,-25.2,275025.2,0,-58000,O
+Trades,Data,Order,Options On Futures,USD,GC MAY26 5400 C,"2026-03-18, 21:47:29",-8,30,15.2,24000,-20.16,-220020.16,-196040.32,11840,C
+Trades,SubTotal,,Options On Futures,USD,GC MAY26 5400 C,,2,,,-251000,-45.36,55005.04,-196040.32,-46160,
+Trades,Data,Order,Options On Futures,USD,ZS JUN26 11.4 C,"2026-02-10, 10:34:54",15,0.41,0.42375,-30750,-45.15,30795.15,0,1031.25,O
+Trades,SubTotal,,Options On Futures,USD,ZS JUN26 11.4 C,,15,,,-30750,-45.15,30795.15,0,1031.25,
+Trades,Data,Order,Options On Futures,USD,SI APR26 82 P,"2026-02-23, 06:12:02",1,5.475,6.321,-27375,-2.52,27377.52,0,4230,O
+Trades,SubTotal,,Options On Futures,USD,SI APR26 82 P,,1,,,-27375,-2.52,27377.52,0,4230,
+Trades,Data,Order,Options On Futures,USD,SI APR26 84 P,"2026-02-23, 06:12:02",-1,5.974,7.348,29870,-2.52,-29867.48,0,-6870,O
+Trades,SubTotal,,Options On Futures,USD,SI APR26 84 P,,-1,,,29870,-2.52,-29867.48,0,-6870,
+Trades,Data,Order,Options On Futures,USD,SI JUN26 86 C,"2026-02-11, 14:12:59",1,12.377,12.295,-61885,-2.52,61887.52,0,-410,O
+Trades,Data,Order,Options On Futures,USD,SI JUN26 86 C,"2026-02-23, 09:51:59",-1,13.912,15.273,69560,-2.52,-61887.52,7669.96,-6805,C
+Trades,SubTotal,,Options On Futures,USD,SI JUN26 86 C,,0,,,7675,-5.04,0,7669.96,-7215,
+Trades,Data,Order,Options On Futures,USD,SB JUN26 0.13 P,"2026-02-17, 03:45:13",20,0.0036,0.0042,-8064,-59.4,8123.4,0,1344,O
+Trades,SubTotal,,Options On Futures,USD,SB JUN26 0.13 P,,20,,,-8064,-59.4,8123.4,0,1344,
+Trades,Data,Order,Options On Futures,USD,SI JUN26 80 P,"2026-02-11, 14:12:59",1,9.463,9.471,-47315,-2.52,47317.52,0,40,O
+Trades,Data,Order,Options On Futures,USD,SI JUN26 80 P,"2026-02-23, 09:51:59",-1,8.198,9.938,40990,-2.52,-47317.52,-6330.04,-8700,C
+Trades,SubTotal,,Options On Futures,USD,SI JUN26 80 P,,0,,,-6325,-5.04,0,-6330.04,-8660,
+Trades,Total,,Options On Futures,USD,,,,,,-407939,-779.82,186933.84,-221784.98,-143849.75, 
+Interest,Header,Currency,Date,Description,Amount
+Interest,Data,USD,2026-02-04,USD Credit Interest for Jan-2026,422.06
+Interest,Data,USD,2026-03-04,USD Credit Interest for Feb-2026,1354.66
+Interest,Data,Total,,,1776.72
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,0
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,2144.35
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,-1776.72
+Interest Accruals,Data,Base Currency Summary,FX Translation,-0
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,367.63
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Underlying,Listing Exch,Multiplier,Expiry,Delivery Month,Type,Strike,Code
+Financial Instrument Information,Data,Equity and Index Options,GLD   260227C00460000,GLD 27FEB26 460 C,844758687,GLD,CBOE,100,2026-02-27,2026-02,C,460,
+Financial Instrument Information,Data,Equity and Index Options,GLD   260227P00435000,GLD 27FEB26 435 P,844762199,GLD,CBOE,100,2026-02-27,2026-02,P,435,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Underlying,Listing Exch,Multiplier,Expiry,Delivery Month,Code
+Financial Instrument Information,Data,Futures,FCPOJ6,FCPO.MY 15APR26,773296874,FCPO.MY,BURSAMY,25,2026-04-15,2026-04,
+Financial Instrument Information,Data,Futures,FCPOM6,FCPO.MY 15JUN26,789263311,FCPO.MY,BURSAMY,25,2026-06-15,2026-06,
+Financial Instrument Information,Data,Futures,PAJ6,PA 28APR26,850029543,PA,NYMEX,100,2026-04-28,2026-04,
+Financial Instrument Information,Data,Futures,PLJ6,PL 28APR26,642484899,PL,NYMEX,50,2026-04-28,2026-04,
+Financial Instrument Information,Data,Futures,TFMJ6,TFM APR26,635077507,TFM,ENDEX,720,2026-03-31,2026-04,
+Financial Instrument Information,Data,Futures,TFMK6,TFM MAY26,635077510,TFM,ENDEX,744,2026-04-30,2026-05,
+Financial Instrument Information,Data,Futures,ZSK6,ZS 14MAY26,665643569,ZS,CBOT,"5,000",2026-05-14,2026-05,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Underlying,Listing Exch,Multiplier,Expiry,Delivery Month,Type,Strike,Code
+Financial Instrument Information,Data,Options On Futures,COK6 C4500,CC MAY26 4500 C,713186882,CCK6,NYBOT,10,2026-04-10,2026-05,C,4500,
+Financial Instrument Information,Data,Options On Futures,COM6 C3300,CC JUN26 3300 C,854054838,CCN6,NYBOT,10,2026-05-08,2026-06,C,3300,
+Financial Instrument Information,Data,Options On Futures,COM6 C4000,CC JUN26 4000 C,851487097,CCN6,NYBOT,10,2026-05-08,2026-06,C,4000,
+Financial Instrument Information,Data,Options On Futures,COM6 P2800,CC JUN26 2800 P,855683493,CCN6,NYBOT,10,2026-05-08,2026-06,P,2800,
+Financial Instrument Information,Data,Options On Futures,G4WG6 C5300,GC 25FEB26 5300 C,850354793,GCJ6,COMEX,100,2026-02-25,2026-02,C,5300,
+Financial Instrument Information,Data,Options On Futures,LNEJ6 P3200,NG APR26 3.2 P,623492403,NGJ26,NYMEX,"10,000",2026-03-26,2026-04,P,3.2,
+Financial Instrument Information,Data,Options On Futures,ML5H6 P9000,CL 30MAR26 90 P,860134011,CLK6,NYMEX,"1,000",2026-03-30,2026-03,P,90,
+Financial Instrument Information,Data,Options On Futures,OGH6 C5300,GC MAR26 5300 C,801759513,GCJ6,COMEX,100,2026-02-24,2026-03,C,5300,
+Financial Instrument Information,Data,Options On Futures,OGK6 C5150,GC MAY26 5150 C,837707102,GCM6,COMEX,100,2026-04-27,2026-05,C,5150,
+Financial Instrument Information,Data,Options On Futures,OGK6 C5255,GC MAY26 5255 C,849218827,GCM6,COMEX,100,2026-04-27,2026-05,C,5255,
+Financial Instrument Information,Data,Options On Futures,OGK6 C5400,GC MAY26 5400 C,820259378,GCM6,COMEX,100,2026-04-27,2026-05,C,5400,
+Financial Instrument Information,Data,Options On Futures,OZSM6 C1140,ZS JUN26 11.4 C,849515589,ZSN6,CBOT,"5,000",2026-05-22,2026-06,C,11.4,
+Financial Instrument Information,Data,Options On Futures,SOJ6 P8200,SI APR26 82 P,839455638,SIK6,COMEX,"5,000",2026-03-26,2026-04,P,82,
+Financial Instrument Information,Data,Options On Futures,SOJ6 P8400,SI APR26 84 P,839455456,SIK6,COMEX,"5,000",2026-03-26,2026-04,P,84,
+Financial Instrument Information,Data,Options On Futures,SOM6 C8600,SI JUN26 86 C,842094155,SIN6,COMEX,"5,000",2026-05-26,2026-06,C,86,
+Financial Instrument Information,Data,Options On Futures,SOM6 P0.13,SB JUN26 0.13 P,851487865,SBN6,NYBOT,"112,000",2026-05-15,2026-06,P,0.13,
+Financial Instrument Information,Data,Options On Futures,SOM6 P8000,SI JUN26 80 P,835924759,SIN6,COMEX,"5,000",2026-05-26,2026-06,P,80,
+Codes,Header,Code,Meaning,Code (Cont.),Meaning (Cont.)
+Codes,Data,A,Assignment
+Codes,Data,ADR,ADR Fee Accrual
+Codes,Data,AEx,Automatic exercise for dividend-related recommendation.
+Codes,Data,AFx,AutoFX conversion resulting from trading
+Codes,Data,Adj,Adjustment
+Codes,Data,Al,Allocation
+Codes,Data,Aw,Away Trade
+Codes,Data,B,Automatic Buy-in
+Codes,Data,Bo,Direct Borrow
+Codes,Data,C,Closing Trade
+Codes,Data,CD,Cash Delivery
+Codes,Data,CP,Complex Position
+Codes,Data,Ca,Cancelled
+Codes,Data,Co,Corrected Trade
+Codes,Data,Cx,Part or all of this transaction was a Crossing executed as dual agent by IB for two IB customers
+Codes,Data,DT,Discounted Trade
+Codes,Data,De,Delivery or Conversion Action
+Codes,Data,ETF,ETF Creation/Redemption
+Codes,Data,Ep,Resulted from an Expired Position
+Codes,Data,Ex,Exercise
+Codes,Data,FP,The fractional portion of this trade was executed against IB or an affiliate.
+Codes,Data,FPA,The fractional portion of this trade was executed against IB or an affiliate. IB acted as agent for the whole share portion of this trade.
+Codes,Data,G,Trade in Guaranteed Account Segment
+Codes,Data,GEA,Exercise or Assignment resulting from offsetting positions
+Codes,Data,HC,Highest Cost tax basis election
+Codes,Data,HFI,Investment Transferred to Hedge Fund
+Codes,Data,HFR,Redemption from Hedge Fund
+Codes,Data,I,Internal Transfer
+Codes,Data,IA,The transaction was executed against IB or an affiliate
+Codes,Data,IM,A portion of the order was executed against IB or an affiliate; IB acted as agent on a portion.
+Codes,Data,INV,Investment Transfer from Investor
+Codes,Data,IPO,This transaction was executed as part of an IPO in which IB was a member of the selling group and is classified as a Principal trade.
+Codes,Data,L,Ordered by IB (Margin Violation)
+Codes,Data,LD,Adjusted by Loss Disallowed from Wash Sale
+Codes,Data,LF,Liquidation of fractional position by IB
+Codes,Data,LI,"Last In, First Out (LIFO) tax basis election"
+Codes,Data,LT,Long Term P/L
+Codes,Data,Lo,Direct Loan
+Codes,Data,M,Entered manually by IB
+Codes,Data,MEx,Manual exercise for dividend-related recommendation.
+Codes,Data,ML,Maximize Losses tax basis election
+Codes,Data,MLG,Maximize Long Term Gain tax basis election
+Codes,Data,MLL,Maximize Long Term Loss tax basis election
+Codes,Data,MSG,Maximize Short Term Gain tax basis election
+Codes,Data,MSL,Maximize Short Term Loss tax basis election
+Codes,Data,O,Opening Trade
+Codes,Data,Off,Yes and No contracts offset to $1.00 cash settlement
+Codes,Data,P,Partial Execution
+Codes,Data,PE,Perpetual Investment
+Codes,Data,PI,Price Improvement
+Codes,Data,PTA,Post Trade Allocation
+Codes,Data,Po,Interest or Dividend Accrual Posting
+Codes,Data,Pr,Part or all of this transaction was executed by the Exchange as a Crossing by IB against an IB affiliate and is therefore classified as a Principal and not an agency trade
+Codes,Data,R,Dividend Reinvestment
+Codes,Data,RED,Redemption to Investor
+Codes,Data,RI,Recurring Investment
+Codes,Data,RP,"IB acted as agent for the fractional share portion of this trade, which was executed by an IB affiliate as riskless principal."
+Codes,Data,RPA,IB acted as agent for both the fractional share portion and the whole share portion of this trade; the fractional share portion was executed by an IB Affiliate as riskless principal.
+Codes,Data,Rb,Rebill
+Codes,Data,Re,Interest or Dividend Accrual Reversal
+Codes,Data,Ri,Reimbursement
+Codes,Data,S0,Contract settled to zero value
+Codes,Data,S1,Contract settled to $1.00
+Codes,Data,SF,Trade is subject to IBKR Lite Surcharge Fee if volume of such trades exceeds 10% of the total monthly Lite trade volume
+Codes,Data,SI,This order was solicited by Interactive Brokers
+Codes,Data,SL,Specific Lot tax basis election
+Codes,Data,SO,This order was marked as solicited by your Introducing Broker
+Codes,Data,SS,Customer designated this trade for shortened settlement and so is subject to execution at prices above the prevailing market
+Codes,Data,ST,Short Term P/L
+Codes,Data,T,Transfer
+Codes,Data,Un,Unvested shares from stock grant
+Codes,Data,XCH,Mutual Fund Exchange Transaction
