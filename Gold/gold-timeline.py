@@ -24,21 +24,21 @@ ax.plot(smooth_days, smooth_prices, color='goldenrod', linewidth=3, label='Actua
 # Plot your actual transaction points on the curve
 ax.scatter(timeline_days[1:8], actual_prices[1:8], color='black', zorder=5, label='Your Executions')
 
-# Highlight Phase 1: Rangebound Premium Collection (Jan 30 - Feb 6)
-ax.axvspan(0, 10, color='gray', alpha=0.1)
-ax.annotate('Phase 1: Volatility Starts\n(GLD Strangle & Short Calls)', xy=(5, 5250), ha='center', fontsize=10, fontweight='bold')
+# Highlight Phase 1: Rangebound Premium Collection (Jan 30 - Feb 11)
+ax.axvspan(0, 12, color='gray', alpha=0.1)
+ax.annotate('Phase 1: Volatility Starts\n(GLD Strangle & Short Calls)', xy=(6, 5250), ha='center', fontsize=10, fontweight='bold')
 
-# Highlight Phase 2: The Breakout (Feb 11 - Feb 23)
-ax.axvspan(10, 28, color='green', alpha=0.1)
-ax.annotate('Phase 2: Aggressive Longs\n(+ $18,700 on 5150 Calls)', xy=(19, 5480), ha='center', fontsize=10, fontweight='bold', color='darkgreen')
+# Highlight Phase 2: The Breakout (Feb 11 - Mar 2)
+ax.axvspan(12, 31, color='green', alpha=0.1)
+ax.annotate('Phase 2: Aggressive Longs\n(+ $18,700 on 5150 Calls)', xy=(21, 5480), ha='center', fontsize=10, fontweight='bold', color='darkgreen')
 
-# Highlight Phase 3: The Peak-IV Trap (March 2 - March 15)
-ax.axvspan(28, 42, color='red', alpha=0.1)
-ax.annotate('Phase 3: The Chop / IV Trap\n(IV Crush on 5400 Calls)', xy=(35, 5450), ha='center', fontsize=10, fontweight='bold', color='darkred')
+# Highlight Phase 3: The Peak-IV Trap (March 2 - March 19)
+ax.axvspan(31, 48, color='red', alpha=0.1)
+ax.annotate('Phase 3: The Chop / IV Trap\n(IV Crush on 5400 Calls)', xy=(39, 5450), ha='center', fontsize=10, fontweight='bold', color='darkred')
 
-# Highlight Phase 4: Recovery & Discipline (March 16+)
-ax.axvspan(42, 55, color='blue', alpha=0.1)
-ax.annotate('Phase 4: Tactical Recovery\n(Bought 5385, Sold 5415)', xy=(48, 5330), ha='center', fontsize=10, fontweight='bold', color='darkblue')
+# Highlight Phase 4: Recovery & Discipline (March 19+)
+ax.axvspan(48, 55, color='blue', alpha=0.1)
+ax.annotate('Phase 4: Tactical Recovery\n(Bought 5394, Sold 5414)', xy=(51, 5330), ha='center', fontsize=10, fontweight='bold', color='darkblue')
 
 # Formatting
 ax.set_title('The Gold Campaign: Actual Execution Timeline (Audited Prices)', fontsize=16, fontweight='bold', pad=15)
